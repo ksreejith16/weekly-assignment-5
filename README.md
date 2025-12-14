@@ -16,12 +16,16 @@ Unlike standard reporting tools, this solution utilizes a **custom-designed "Dee
 
 ### 1. Executive Sales Dashboard
 *A high-level view of critical KPIs including Total Sales, Net Profit, and YoY Growth percentages, featuring a custom sidebar navigation.*
-![Executive Dashboard](./image_7a0fca.png) 
+![Executive Dashboard](https://github.com/ksreejith16/weekly-assignment-5/blob/main/results_images/ExecutiveSalesDashboard.jpg) 
 *(Replace this path with your actual image file)*
 
 ### 2. Product Performance Matrix
 *Granular analysis of product categories using conditional formatting and data bars to highlight top performers instantly.*
-![Product Matrix](./image_7a0ce0.png)
+![Product Matrix](https://github.com/ksreejith16/weekly-assignment-5/blob/main/results_images/ProductPerfomance.jpg)
+
+### 3. Trend Analysis & Forecasting
+*Comprehensive time-series visualization tracking monthly sales performance against profit margins, enabling the identification of seasonal peaks and long-term growth patterns.*
+![Trend Analysis](https://github.com/ksreejith16/weekly-assignment-5/blob/main/results_images/TrendAnalysis.jpg)
 
 ---
 
@@ -39,7 +43,7 @@ Unlike standard reporting tools, this solution utilizes a **custom-designed "Dee
 
 This project follows a structured **ETL (Extract, Transform, Load)** methodology:
 
-1.  **Data Extraction:** Imported raw sales data (`Modified_Sales_Data.csv`) containing 1,000+ transaction records.
+1.  **Data Extraction:** Imported raw sales data (`sales.csv`) containing 1,000+ transaction records.
 2.  **Data Transformation (Power Query):**
     * Cleaned inconsistent data types.
     * Created a standard **Star Schema** data model.
@@ -65,10 +69,10 @@ To view and interact with this report locally:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+    git clone [https://github.com/ksreejith16/weekly-assignment-5/](https://github.com/ksreejith16/weekly-assignment-5/)
     ```
 2.  **Prerequisites:** Ensure you have [Microsoft Power BI Desktop](https://powerbi.microsoft.com/desktop/) installed.
-3.  **Open the File:** Double-click `Chubb_Assignment_5.pbix` to launch the report.
+3.  **Open the File:** Double-click `SalesPerformanceAnalysis.pbix` to launch the report.
 4.  **Refresh Data:** If you modify the source CSV, click the "Refresh" button in the Home ribbon to update the visuals.
 
 ---
